@@ -1,0 +1,79 @@
+1479716771259	geckodriver	INFO	Listening on 127.0.0.1:40607
+1479716773270	mozprofile::profile	INFO	Using profile path C:\Users\XIAOXI~1\AppData\Local\Temp\rust_mozprofile.yOuMTfs77rPN
+1479716773277	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1479716773410	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40615
+1479716773983	Marionette	INFO	Listening on port 40615
+1479716877591	geckodriver	INFO	Listening on 127.0.0.1:40742
+1479716879604	mozprofile::profile	INFO	Using profile path C:\Users\XIAOXI~1\AppData\Local\Temp\rust_mozprofile.xW0xevE95oed
+1479716879611	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1479716879694	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40749
+1479716880290	Marionette	INFO	Listening on port 40749
+[Child 14096] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1479776664646	geckodriver	INFO	Listening on 127.0.0.1:54950
+1479776666660	mozprofile::profile	INFO	Using profile path C:\Users\XIAOXI~1\AppData\Local\Temp\rust_mozprofile.qA7wJ7rgh8JQ
+1479776666667	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1479776666798	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54959
+1479776667700	Marionette	INFO	Listening on port 54959
+1479776916660	geckodriver	INFO	Listening on 127.0.0.1:55167
+1479776918657	mozprofile::profile	INFO	Using profile path C:\Users\XIAOXI~1\AppData\Local\Temp\rust_mozprofile.ekL7tkFVm50p
+1479776918660	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1479776918731	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55173
+1479776919285	Marionette	INFO	Listening on port 55173
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/demangle.js, line 0: Successfully compiled asm.js code (total compilation time 57ms; unable to cache asm.js in synchronous scripts; try loading asm.js via <script async> or createElement('script'))
+*************************
+A coding exception was thrown in a Promise resolution callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: window.document.documentElement is null
+Full stack: isXUL@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:99:3
+exports.HighlighterActor<._createHighlighter@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:121:33
+exports.HighlighterActor<.initialize@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:100:5
+constructor@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/core/heritage.js:146:23
+exports.InspectorActor<.getHighlighter/this._highlighterPromise<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/inspector.js:2675:25
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:937:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750:11
+
+*************************
+console.error: 
+  Message: TypeError: window.document.documentElement is null
+  Stack:
+    isXUL@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:99:3
+exports.HighlighterActor<._createHighlighter@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:121:33
+exports.HighlighterActor<.initialize@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:100:5
+constructor@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/core/heritage.js:146:23
+exports.InspectorActor<.getHighlighter/this._highlighterPromise<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/inspector.js:2675:25
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:937:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750:11
+
+isXUL@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:99:3
+exports.HighlighterActor<._createHighlighter@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:121:33
+exports.HighlighterActor<.initialize@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:100:5
+constructor@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/core/heritage.js:146:23
+exports.InspectorActor<.getHighlighter/this._highlighterPromise<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/inspector.js:2675:25
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:937:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750:11
+console.error: 
+  Protocol error (unknownError): window.document.documentElement is null
+JavaScript error: chrome://marionette/content/listener.js, line 999: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+[Child 19492] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1479796448352	geckodriver	INFO	Listening on 127.0.0.1:6114
+1479796450341	mozprofile::profile	INFO	Using profile path C:\Users\XIAOXI~1\AppData\Local\Temp\rust_mozprofile.RQPRsNhchXZj
+1479796450341	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1479796450560	geckodriver::marionette	INFO	Connecting to Marionette on localhost:6123
+1479796454002	Marionette	INFO	Listening on port 6123
+[Child 19788] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1479796533828	geckodriver	INFO	Listening on 127.0.0.1:6179
+1479796535831	mozprofile::profile	INFO	Using profile path C:\Users\XIAOXI~1\AppData\Local\Temp\rust_mozprofile.gEEYVxNNpNgE
+1479796535847	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1479796535941	geckodriver::marionette	INFO	Connecting to Marionette on localhost:6185
+1479796536788	Marionette	INFO	Listening on port 6185
+[Child 21292] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1479796907524	geckodriver	INFO	Listening on 127.0.0.1:6344
+1479796909557	mozprofile::profile	INFO	Using profile path C:\Users\XIAOXI~1\AppData\Local\Temp\rust_mozprofile.VyktTpq71FQU
+1479796909557	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1479796909651	geckodriver::marionette	INFO	Connecting to Marionette on localhost:6351
+1479796910555	Marionette	INFO	Listening on port 6351
+[Child 1988] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
